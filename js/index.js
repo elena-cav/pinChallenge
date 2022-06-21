@@ -5,15 +5,16 @@ const pinPad = [
   [null, 0, null],
 ];
 
-const findCombinations = (list, n = 0, numbers = [], current = []) => {
+const findCombinations = (list, n = 0, numbers = [], current = "") => {
   if (n === list.length) {
-    numbers.push(parseInt(current));
+    numbers.push(Number(current));
   } else
-    list[n].forEach((item) =>
-      findCombinations(list, n + 1, numbers, "" + current + item)
-    );
+    list[n].forEach((item) => {
+      return findCombinations(list, n + 1, numbers, current + item);
+    });
   return numbers;
 };
+// [[1, 2, 3], [2]];
 const splitPin = (pin) => pin.toString().split("");
 
 const getAdjacentNumbers = (rowIndex, columnIndex) => {
