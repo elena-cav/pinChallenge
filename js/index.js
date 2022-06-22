@@ -14,7 +14,6 @@ const findCombinations = (list, n = 0, numbers = [], current = "") => {
     });
   return numbers;
 };
-// [[1, 2, 3], [2]];
 const splitPin = (pin) => pin.toString().split("");
 
 const getAdjacentNumbers = (rowIndex, columnIndex) => {

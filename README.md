@@ -25,3 +25,15 @@ Rewards:
 Example:
 For the following approximate PIN: 46
 The possible real PINs would be: 13, 15, 16, 19, 43, 45, 46, 49, 53, 55, 56, 59, 73, 75, 76, 79
+
+## To run
+
+# JS
+
+- `npm i`
+- `npm run test`
+
+# Python
+
+- Update value on line 75
+- `python3 index.py `
