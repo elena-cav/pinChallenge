@@ -35,5 +35,5 @@ The possible real PINs would be: 13, 15, 16, 19, 43, 45, 46, 49, 53, 55, 56, 59,
 
 # Python
 
-- Update value on line 75
+- Update value on line 76
 - `python3 index.py `
