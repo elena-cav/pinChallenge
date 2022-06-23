@@ -69,7 +69,8 @@ def generateResult(pin):
     for i in sort_orders:
         result.append(i[0])
     print('RESULT:', result)
+    print('RESULT length:', len(result))
     return result
 
 
-generateResult(46)
+generateResult(97516)
