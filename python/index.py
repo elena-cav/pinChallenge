@@ -56,8 +56,8 @@ def generateDictionary(combinations):
     dictionaryOfProbability = {}
     for num in combinations:
         dictionaryOfProbability[num] = 0
-        for num_smaller_than_9 in str(num):
-            dictionaryOfProbability[num] += mostWorn.index(num_smaller_than_9)
+        for num_smaller_than_10 in str(num):
+            dictionaryOfProbability[num] += mostWorn.index(num_smaller_than_10)
     return dictionaryOfProbability
 
 
